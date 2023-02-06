@@ -1,18 +1,19 @@
 # 2022-23_ucl_mres_hernan_lab
 bash, R, metagenomics, phylogenetic genomics
 
-#description
-file description:
-run* forloop for commands
+        #description
+        file description:
+        run* forloop for commands
 
-samples:
+        samples:
 
-143 samples: with the newest pipeline (r1 r2 and then combined (instead of trim and collapse since the short reads segment), with q20)
+        143 samples: with the newest pipeline (r1 r2 and then combined (instead of trim and collapse since the short reads segment), with q20)
 
-37 samples: with newest pipeline (realgin and removal, q20 (instead of sergio's removed bam))
+        37 samples: with newest pipeline (realgin and removal, q20 (instead of sergio's removed bam))
 
-scripts:
+        scripts:
         preprocessing:
+        
         1. 143 samples:
                 sh: arraysub_143samples.sh & finalpipeline_143_q20_combined.sh
                 output: answers/answers_143_withq20final/
