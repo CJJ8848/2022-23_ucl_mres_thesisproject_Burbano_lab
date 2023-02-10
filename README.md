@@ -43,3 +43,7 @@ bash, R, metagenomics, phylogenetic genomics
                         output: read2treeinput/nsortedbam & /fastq
                         sh:  runr2tmulti.sh
                         output: r2toutputs/
+                        sh: histallwith2ref1out_runr2t.sh & modernallallwith2ref1out_runr2t.sh          
+                        sh: arraysubhistorical.sh & arraysubmodern.sh #forloop
+                        sh: before_and_after_runr2t.sh #generate reference folder and merge all mappings
+                        output: r2toutputs/r2tfinal
