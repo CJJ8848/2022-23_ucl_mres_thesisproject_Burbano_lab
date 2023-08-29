@@ -1,5 +1,5 @@
 # 2022-23_ucl_mres_Burbano_lab
-bash, R, metagenomics, phylogenetic genomics
+bash, R, metagenomics, phylogenetic
 
         
         file description:
